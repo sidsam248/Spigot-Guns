@@ -25,6 +25,7 @@ This Spigot plugin adds craftable firearms, including pistols, rifles, and snipe
 ## Crafting Recipes
 
 - **Pistol Recipe**:
+  
 I I I
 
 I S
@@ -34,6 +35,7 @@ I
 Where `I` = Iron Block, `S` = Stick.
 
 - **Rifle Recipe**:
+  
 D D D
 
 D S
@@ -43,6 +45,7 @@ D
 Where `D` = Diamond Block, `S` = Stick.
 
 - **Sniper Recipe**:
+  
 E E E 
 
 E S
