@@ -102,15 +102,15 @@ public class GunCraftingListener implements Listener {
     }
 
     private boolean isPistolRecipe(ItemStack[] matrix) {
-        return checkRecipe(matrix, Material.IRON_BLOCK, Material.STICK);
+        return checkRecipe(matrix, Material.IRON_NUGGET, Material.STICK);
     }
 
     private boolean isRifleRecipe(ItemStack[] matrix) {
-        return checkRecipe(matrix, Material.DIAMOND_BLOCK, Material.STICK);
+        return checkRecipe(matrix, Material.DIAMOND, Material.STICK);
     }
 
     private boolean isSniperRecipe(ItemStack[] matrix) {
-        return checkRecipe(matrix, Material.EMERALD_BLOCK, Material.STICK);
+        return checkRecipe(matrix, Material.EMERALD, Material.STICK);
     }
 
     private boolean checkRecipe(ItemStack[] matrix, Material mainMaterial, Material secondaryMaterial) {
