@@ -44,7 +44,7 @@ public class GunCraftingListener implements Listener {
         item.setItemMeta(meta);
         ShapedRecipe pistolRecipe = new ShapedRecipe(pistolKey, setCustomDurability(item, 250));
         pistolRecipe.shape("AAA", "AB ", "A  ");
-        pistolRecipe.setIngredient('A', Material.IRON_BLOCK);
+        pistolRecipe.setIngredient('A', Material.IRON_NUGGET);
         pistolRecipe.setIngredient('B', Material.STICK);
         plugin.getServer().addRecipe(pistolRecipe);
 
@@ -55,7 +55,7 @@ public class GunCraftingListener implements Listener {
         item.setItemMeta(meta);
         ShapedRecipe rifleRecipe = new ShapedRecipe(rifleKey, setCustomDurability(item, 750));
         rifleRecipe.shape("DDD", "DB ", "D  ");
-        rifleRecipe.setIngredient('D', Material.DIAMOND_BLOCK);
+        rifleRecipe.setIngredient('D', Material.DIAMOND);
         rifleRecipe.setIngredient('B', Material.STICK);
         plugin.getServer().addRecipe(rifleRecipe);
 
@@ -66,7 +66,7 @@ public class GunCraftingListener implements Listener {
         item.setItemMeta(meta);
         ShapedRecipe sniperRecipe = new ShapedRecipe(sniperKey, item);
         sniperRecipe.shape("EEE", "EB ", "E  ");
-        sniperRecipe.setIngredient('E', Material.EMERALD_BLOCK);
+        sniperRecipe.setIngredient('E', Material.EMERALD);
         sniperRecipe.setIngredient('B', Material.STICK);
         plugin.getServer().addRecipe(sniperRecipe);
     }

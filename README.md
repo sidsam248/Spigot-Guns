@@ -32,7 +32,7 @@ I S
 
 I
 
-Where `I` = Iron Block, `S` = Stick.
+Where `I` = Iron, `S` = Stick.
 
 - **Rifle Recipe**:
   
@@ -42,7 +42,7 @@ D S
 
 D
 
-Where `D` = Diamond Block, `S` = Stick.
+Where `D` = Diamond, `S` = Stick.
 
 - **Sniper Recipe**:
   
@@ -52,7 +52,7 @@ E S
 
 E
 
-Where `E` = Emerald Block, `S` = Stick.
+Where `E` = Emerald, `S` = Stick.
 
 ## Installation
 
