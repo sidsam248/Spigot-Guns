@@ -7,9 +7,9 @@ This Spigot plugin adds craftable firearms, including pistols, rifles, and snipe
 ## Features
 
 - **Craftable Firearms**: Players can craft three types of guns:
-  - **Pistols**: Crafted with iron blocks arranged in the top and left borders with a stick in the middle (resembles a trigger).
-  - **Rifles**: Crafted using diamond blocks.
-  - **Snipers**: Crafted using emerald blocks.
+  - **Pistols**: Crafted with iron ingots arranged in the top and left borders with a stick in the middle (resembles a trigger).
+  - **Rifles**: Crafted using diamonds.
+  - **Snipers**: Crafted using emeralds.
 
 - **Custom Texture Pack Integration**: The plugin is designed to work seamlessly with LOROT's Armory Pack, giving each weapon a unique and visually appealing appearance.
 
