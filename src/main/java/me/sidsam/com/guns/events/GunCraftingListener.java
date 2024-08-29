@@ -44,7 +44,7 @@ public class GunCraftingListener implements Listener {
         item.setItemMeta(meta);
         ShapedRecipe pistolRecipe = new ShapedRecipe(pistolKey, setCustomDurability(item, 250));
         pistolRecipe.shape("AAA", "AB ", "A  ");
-        pistolRecipe.setIngredient('A', Material.IRON_NUGGET);
+        pistolRecipe.setIngredient('A', Material.IRON_INGOT);
         pistolRecipe.setIngredient('B', Material.STICK);
         plugin.getServer().addRecipe(pistolRecipe);
 
@@ -102,7 +102,7 @@ public class GunCraftingListener implements Listener {
     }
 
     private boolean isPistolRecipe(ItemStack[] matrix) {
-        return checkRecipe(matrix, Material.IRON_NUGGET, Material.STICK);
+        return checkRecipe(matrix, Material.IRON_INGOT, Material.STICK);
     }
 
     private boolean isRifleRecipe(ItemStack[] matrix) {
